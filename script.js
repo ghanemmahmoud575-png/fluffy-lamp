@@ -2215,7 +2215,7 @@ function saveDay(){
     tank:tankSelect.value,
     beforeCC:beforeCC.value,
     afterCC:afterCC.value,
-    afterDrainCCdrain:afterDrainCC.value,
+    afterDrainCC:afterDrainCC.value,
     afterHamraCC:afterHamraCC.value,
     trucks:JSON.parse(JSON.stringify(trucks))
   };
@@ -2350,4 +2350,5 @@ if ("serviceWorker" in navigator) {
   window.addEventListener("load", () => {
     navigator.serviceWorker.register("./service-worker.js");
   });
+
 } 
